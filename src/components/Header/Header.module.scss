@@ -1,0 +1,28 @@
+.header {
+  width: 100%;
+  container: header / inline-size;
+  background-color: var(--mode);
+  height: 12dvh;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    font-family: var(--font-family1);
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 2rem;
+
+    .logo {
+      width: 7rem;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: space-between;
+      gap: 3rem;
+      cursor: pointer;
+    }
+  }
+}
