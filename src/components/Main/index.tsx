@@ -40,7 +40,7 @@ export const Main: React.FC = () => {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>
-        Aqui você encontra a campanha certa para o seu negócio.
+        Soluções em comunicação personalizadas para o seu negócio.
       </h1>
       <p className={styles.subtitle}>
         Faça com quem entende do assunto e está há 31 anos no mercado, ajudando
